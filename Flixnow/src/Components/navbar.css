@@ -1,0 +1,24 @@
+.logo {
+    height: 50px;
+    object-fit: contain;
+  }
+  .user{
+    height: 50px;
+    padding-right: 30px;
+    object-fit: contain;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+    z-index: 100;
+  }
+  
+  .navbar__black {
+    background-color: #111; /* Adjust the color as needed */
+  }
+  
